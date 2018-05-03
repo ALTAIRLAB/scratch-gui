@@ -125,7 +125,7 @@ const MenuBar = props => (
                 >
                     <div className={classNames(styles.fileMenu)}>
                         <FormattedMessage
-                            defaultMessage="File"
+                            defaultMessage="Файл"
                             description="Text for file dropdown menu"
                             id="gui.menuBar.file"
                         />
@@ -137,7 +137,7 @@ const MenuBar = props => (
                         <MenuItemTooltip id="new">
                             <MenuItem>
                                 <FormattedMessage
-                                    defaultMessage="New"
+                                    defaultMessage="Новый"
                                     description="Menu bar item for creating a new project"
                                     id="gui.menuBar.new"
                                 />
@@ -147,7 +147,7 @@ const MenuBar = props => (
                             <MenuItemTooltip id="save">
                                 <MenuItem>
                                     <FormattedMessage
-                                        defaultMessage="Save now"
+                                        defaultMessage="Сохранить сейчас"
                                         description="Menu bar item for saving now"
                                         id="gui.menuBar.saveNow"
                                     />
@@ -156,7 +156,7 @@ const MenuBar = props => (
                             <MenuItemTooltip id="copy">
                                 <MenuItem>
                                     <FormattedMessage
-                                        defaultMessage="Save as a copy"
+                                        defaultMessage="Сохранить как..."
                                         description="Menu bar item for saving as a copy"
                                         id="gui.menuBar.saveAsCopy"
                                     /></MenuItem>
@@ -169,7 +169,7 @@ const MenuBar = props => (
                                     {...loadProps}
                                 >
                                     <FormattedMessage
-                                        defaultMessage="Upload from your computer"
+                                        defaultMessage="Загрузить с компьютера"
                                         description="Menu bar item for uploading a project from your computer"
                                         id="gui.menuBar.uploadFromComputer"
                                     />
@@ -182,7 +182,7 @@ const MenuBar = props => (
                                     {...saveProps}
                                 >
                                     <FormattedMessage
-                                        defaultMessage="Download to your computer"
+                                        defaultMessage="Скачать на компьютер"
                                         description="Menu bar item for downloading a project"
                                         id="gui.menuBar.downloadToComputer"
                                     />
